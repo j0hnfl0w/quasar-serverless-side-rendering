@@ -1,6 +1,6 @@
 # quasar-ssr-netlify
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9306b609-c746-4fe4-9095-72da008be67d/deploy-status)](https://app.netlify.com/sites/quasar-ssr-netlify/deploys)\
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9306b609-c746-4fe4-9095-72da008be67d/deploy-status)](https://app.netlify.com/sites/quasar-ssr-netlify/deploys)
 
 https://www.netlify.com/blog/2018/09/13/how-to-run-express.js-apps-with-netlify-functions/
 https://github.com/neverendingqs/netlify-express/blob/master/express/server.js
@@ -20,13 +20,12 @@ cd my-app
 yarn # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
-## Checklist
+### Checklist
 
 When you use this template, try follow the checklist to update your info properly
 
 - [ ] Clean up the READMEs and remove routes
-      TODO
 
-## Roadmap
+### Roadmap
 
 TODO
