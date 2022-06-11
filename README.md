@@ -5,6 +5,7 @@
 https://www.netlify.com/blog/2018/09/13/how-to-run-express.js-apps-with-netlify-functions/
 https://github.com/neverendingqs/netlify-express/blob/master/express/server.js
 https://quasar.dev/quasar-cli-webpack/developing-ssr/ssr-production-export
+https://github.com/netlify/netlify-lambda
 
 ### Inspired by
 
