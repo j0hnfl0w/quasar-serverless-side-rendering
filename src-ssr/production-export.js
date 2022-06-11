@@ -7,9 +7,9 @@
  * This file is used ONLY on production.
  */
 
-import serverless from 'serverless-http';
+// import serverless from 'serverless-http';
 import { ssrProductionExport } from 'quasar/wrappers';
 
-export default ssrProductionExport(({ ssrHandler }) => {
-  return { handler: serverless(ssrHandler) };
+export default ssrProductionExport(({ app }) => {
+  return app;
 });
