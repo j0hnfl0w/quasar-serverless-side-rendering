@@ -10,6 +10,6 @@
 import serverless from 'serverless-http';
 import { ssrProductionExport } from 'quasar/wrappers';
 
-export default ssrProductionExport(({ app, port, isReady }) => {
+export default ssrProductionExport(({ ssrHandler }) => {
   return { handler: serverless(ssrHandler) };
 });
