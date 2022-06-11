@@ -28,4 +28,6 @@ When you use this template, try follow the checklist to update your info properl
 
 ### Roadmap
 
-TODO
+- [ ] Build render function with netlify-lambda => yarn build:l BROKEN
+- [ ] Serve project with netlify dev BROKEN
+- [ ] Implement the Nuxt3 style netlify deploy, how they did it?
