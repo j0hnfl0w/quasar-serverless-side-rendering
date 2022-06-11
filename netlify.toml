@@ -1,6 +1,6 @@
 [build]
   command = "yarn && yarn build"
+  functions = "functions"
 
 [functions]
   directory = "dist/"
-  included_files = ["dist/**"]
