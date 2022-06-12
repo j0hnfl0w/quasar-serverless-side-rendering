@@ -1,8 +1,8 @@
 {
-  "name": "quasar-ssr-netlify",
+  "name": "quasar-ssr-serverless",
   "version": "0.0.1",
-  "description": "quasar-ssr-netlify",
-  "productName": "quasar-ssr-netlify",
+  "description": "quasar-ssr-serverless",
+  "productName": "quasar-ssr-serverless",
   "author": "j0hnfl0w",
   "license": "MIT",
   "private": false,
@@ -13,8 +13,8 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev -m ssr",
     "build": "quasar build -m ssr",
-    "n:b": "netlify-lambda build functions-src",
-    "n:i": "netlify-lambda install functions-src"
+    "n:b": "npx netlify-lambda build api",
+    "n:i": "npx netlify-lambda install api"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

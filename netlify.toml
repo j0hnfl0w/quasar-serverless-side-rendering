@@ -1,5 +1,5 @@
 [build]
-  command = "yarn && yarn build"
+  command = "yarn && yarn build && cd api && yarn"
   functions = "functions"
 
 [functions]
