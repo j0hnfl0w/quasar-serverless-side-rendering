@@ -3,4 +3,11 @@
   functions = "functions"
 
 [functions]
-  directory = "functions-src/"
+  directory = "api/"
+  included_files = ["api/**"]
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/ssr"
+  status = 200
+  force = true
