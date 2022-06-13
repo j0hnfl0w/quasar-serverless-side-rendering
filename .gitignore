@@ -34,3 +34,5 @@ yarn-error.log*
 
 api/dist
 functions
+
+.vercel

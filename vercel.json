@@ -1,7 +1,9 @@
-[
-  { "handle": "filesystem" },
-  {
-    "src": "/(.*)",
-    "dest": "/.vercel/functions/ssr"
+{
+  "public": false,
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/ssr" }],
+  "functions": {
+    "api/ssr.js": {
+      "includeFiles": "/api/**"
+    }
   }
-]
+}
