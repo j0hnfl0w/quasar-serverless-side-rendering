@@ -1,9 +1,3 @@
 {
-  "public": false,
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/ssr.js" }],
-  "functions": {
-    "api/ssr.js": {
-      "includeFiles": "/api/**"
-    }
-  }
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/ssr" }]
 }
