@@ -1,7 +1,7 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "api/ssr" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/ssr" }],
   "functions": {
-    "/api/ssr": {
+    "api/ssr.js": {
       "includeFiles": "/api/**, /dist/**"
     }
   }
