@@ -52,7 +52,7 @@ module.exports = configure(function (ctx) {
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-build
     build: {
       vueRouterMode: 'history', // available values: 'hash', 'history'
-      distDir: 'api/dist',
+      distDir: 'dist',
       // transpile: false,
       // publicPath: '/',
 
@@ -108,7 +108,7 @@ module.exports = configure(function (ctx) {
 
     // https://v2.quasar.dev/quasar-cli-webpack/developing-ssr/configuring-ssr
     ssr: {
-      pwa: false,
+      pwa: true,
 
       // manualStoreHydration: true,
       // manualPostHydrationTrigger: true,
@@ -137,8 +137,8 @@ module.exports = configure(function (ctx) {
       // chainWebpackCustomSW (/* chain */) {},
 
       manifest: {
-        name: 'quasar-ssr-netlify',
-        short_name: 'quasar-ssr-netlify',
+        name: 'quasar-serverless-side-rendering',
+        short_name: 'quasar-serverless-side-rendering',
         description: '',
         display: 'standalone',
         orientation: 'portrait',
@@ -202,7 +202,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'quasar-ssr-netlify',
+        appId: 'quasar-serverless-side-rendering',
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

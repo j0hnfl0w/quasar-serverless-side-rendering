@@ -36,3 +36,4 @@ api/dist
 functions
 
 .vercel
+.netlify

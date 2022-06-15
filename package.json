@@ -1,8 +1,8 @@
 {
-  "name": "quasar-ssr-serverless",
+  "name": "quasar-serverless-side-rendering",
   "version": "0.0.1",
-  "description": "quasar-ssr-serverless",
-  "productName": "quasar-ssr-serverless",
+  "description": "quasar-serverless-side-rendering",
+  "productName": "quasar-serverless-side-rendering",
   "author": "j0hnfl0w",
   "license": "MIT",
   "private": false,
