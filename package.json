@@ -14,7 +14,8 @@
     "dev": "quasar dev -m ssr",
     "build": "quasar build -m ssr",
     "n:b": "npx netlify-lambda build api",
-    "n:i": "npx netlify-lambda install api"
+    "n:i": "npx netlify-lambda install api",
+    "postbuild": "node ./scripts/postbuild.js"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
