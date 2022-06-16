@@ -54,7 +54,7 @@ module.exports = configure(function (ctx) {
       vueRouterMode: 'history', // available values: 'hash', 'history'
       distDir: 'api/dist',
       // transpile: false,
-      publicPath: '/.netlify/functions/ssr',
+      // publicPath: '/.netlify/functions/ssr',
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
       // (from node_modules, which are by default not transpiled).
