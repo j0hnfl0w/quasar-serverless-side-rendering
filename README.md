@@ -1,4 +1,4 @@
-# quasar-ssr-netlify
+# quasar-serverless-side-rendering
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/222edc1c-8300-48c4-8102-73c5aa5f5c98/deploy-status)](https://app.netlify.com/sites/quasar-serverless-side-rendering/deploys)
 
@@ -16,7 +16,7 @@ https://github.com/antfu/vitesse
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit j0hnfl0w/quasar-ssr-netlify my-app
+npx degit j0hnfl0w/quasar-serverless-side-rendering my-app
 cd my-app
 yarn # If you don't have pnpm installed, run: npm install -g pnpm
 ```
